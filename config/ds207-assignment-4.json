@@ -1,0 +1,9 @@
+{
+  "assignment": 4,
+  "assignment_files": {
+    "assignment4.py": "[\\w\\s]+(?:[-_](?:\\d{5}))?(?:[-_]assignm(?:en?|ne)t[_-]?4)?(?:.*)\\.py"
+  },
+  "assignment_code_file": "assignment4.py",
+  "assignment_variables": {
+  }
+}
