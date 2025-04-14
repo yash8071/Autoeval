@@ -7,7 +7,7 @@ from src.components import *
 def make_parser():
     parser = argparse.ArgumentParser(description="Performs evaluation of submitted assignments")
     parser.add_argument("-D", "--data-dir", default="data", help="directory for data")
-    parser.add_argument('--config', default="config/ds207-assignment-3.json",
+    parser.add_argument('--config', default="config/ds207-assignment-4.json",
                         help="path to config file for assignment specific evaluation")
     subparsers = parser.add_subparsers(dest="action", description="action to perform")
     parser.add_argument("-S", "--skip-existing", action="store_true",
